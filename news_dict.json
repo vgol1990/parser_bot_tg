@@ -3,90 +3,105 @@
         "article_data_timestamp": 1691904360.0,
         "article_title": "Кто сказал «мяу»? Как звук становится хранителем квантовых тайн",
         "article_url": "https://www.securitylab.ru//news/540855.php",
-        "article_desc": "В Caltech придумали, как хранить данные в звуке."
+        "article_desc": "В Caltech придумали, как хранить данные в звуке.",
+        "article_img": "/upload/resize_cache/iblock/fb5/241_151_2/18qgft10nfsqcluogxjhh0bxoh377d4s.jpg"
     },
     "540856": {
         "article_data_timestamp": 1691902899.0,
         "article_title": "Google Chrome защитит ключи шифрования от квантовых компьютеров",
         "article_url": "https://www.securitylab.ru//news/540856.php",
-        "article_desc": "Почему Google торопится в будущее с квантовой криптографией?"
+        "article_desc": "Почему Google торопится в будущее с квантовой криптографией?",
+        "article_img": "/upload/resize_cache/iblock/a82/241_151_2/93ydklrzqurcblntpemulz1hujgx2mwt.jpg"
     },
     "540854": {
         "article_data_timestamp": 1691853563.0,
         "article_title": "Сбои Google в России: техническая проблема или политический шаг?",
         "article_url": "https://www.securitylab.ru//news/540854.php",
-        "article_desc": "Активно жаловались жители Москвы, Санкт-Петербурга и Казани."
+        "article_desc": "Активно жаловались жители Москвы, Санкт-Петербурга и Казани.",
+        "article_img": "/upload/resize_cache/iblock/a3a/241_151_2/vw65210hqty6y5u7ew100yss37liorc2.jpg"
     },
     "540853": {
         "article_data_timestamp": 1691853438.0,
         "article_title": "Подростки взломали карты бостонского метро, ​​чтобы получить бесконечные бесплатные поездки",
         "article_url": "https://www.securitylab.ru//news/540853.php",
-        "article_desc": "Они усовершенствовали уязвимость 15ти летней давности."
+        "article_desc": "Они усовершенствовали уязвимость 15ти летней давности.",
+        "article_img": "/upload/resize_cache/iblock/82e/241_151_2/rqwzxaat268lawvehvyte2w1lg0jyl22.jpg"
     },
     "540852": {
         "article_data_timestamp": 1691845087.0,
         "article_title": "Сисадмин оборонного предприятия получил условный срок за использование бесплатного ПО",
         "article_url": "https://www.securitylab.ru//news/540852.php",
-        "article_desc": "Как админ Роскосмоса поставил под угрозу безопасность оборонного предприятия своими действиями?"
+        "article_desc": "Как админ Роскосмоса поставил под угрозу безопасность оборонного предприятия своими действиями?",
+        "article_img": "/upload/resize_cache/iblock/26b/241_151_2/rkmx0wecrmghrp65i250ghlrtx1g2vm1.jpg"
     },
     "540851": {
         "article_data_timestamp": 1691822301.0,
         "article_title": "Инновации на страже США: как генеративный AI меняет правила игры в будущих войнах",
         "article_url": "https://www.securitylab.ru//news/540851.php",
-        "article_desc": "Америка ведёт за собой новую эру в обороне."
+        "article_desc": "Америка ведёт за собой новую эру в обороне.",
+        "article_img": "/upload/resize_cache/iblock/7a2/241_151_2/meadldf19fxv9y2lcy20yaovr9ympv7t.jpg"
     },
     "540850": {
         "article_data_timestamp": 1691820875.0,
         "article_title": "Компьютер вместо автомата: как Минцифры России планирует изменить жизнь IT-специалистов?",
         "article_url": "https://www.securitylab.ru//news/540850.php",
-        "article_desc": "Возрастной лимит отсрочки от армии для IT-специалистов хотят увеличить до 30 лет."
+        "article_desc": "Возрастной лимит отсрочки от армии для IT-специалистов хотят увеличить до 30 лет.",
+        "article_img": "/upload/resize_cache/iblock/0b1/241_151_2/au42xcbegy82raq0y04mbjmn6nvhkzaz.jpg"
     },
     "540849": {
         "article_data_timestamp": 1691820866.0,
         "article_title": "Microsoft: ошибки ПЛК Codesys могут быть использованы для «остановки электростанций»",
         "article_url": "https://www.securitylab.ru//news/540849.php",
-        "article_desc": "От электростанций до конвейеров – всё может остановиться."
+        "article_desc": "От электростанций до конвейеров – всё может остановиться.",
+        "article_img": "/upload/resize_cache/iblock/c25/241_151_2/b8alnomztqdw1gikqzcwbnnxgs86smg7.jpg"
     },
     "540848": {
         "article_data_timestamp": 1691819283.0,
         "article_title": "Сила света против дронов и ракет: Как новая технология охлаждения меняет правила игры",
         "article_url": "https://www.securitylab.ru//news/540848.php",
-        "article_desc": "Бесконечные лазерные бои начинаются в Китае."
+        "article_desc": "Бесконечные лазерные бои начинаются в Китае.",
+        "article_img": "/upload/resize_cache/iblock/fb9/241_151_2/e9btg2ijkexa4yo29w4mk4cybls7340u.jpg"
     },
     "540847": {
         "article_data_timestamp": 1691789463.0,
         "article_title": "Китай хочет контролировать все мобильные приложения",
         "article_url": "https://www.securitylab.ru//news/540847.php",
-        "article_desc": "Все поставщики приложений должны будут предоставить свои бизнес-данные правительству до марта 2024 года."
+        "article_desc": "Все поставщики приложений должны будут предоставить свои бизнес-данные правительству до марта 2024 года.",
+        "article_img": "/upload/resize_cache/iblock/db8/241_151_2/zfdy2jea0l7qzakmqit2gvcytd7asul0.jpg"
     },
     "540846": {
         "article_data_timestamp": 1691783496.0,
         "article_title": "Мошенник из Оби обогатился на криптовалюте, обманув более 1000 пользователей",
         "article_url": "https://www.securitylab.ru//news/540846.php",
-        "article_desc": "Преступник крал пароли при помощи вредоносного ПО."
+        "article_desc": "Преступник крал пароли при помощи вредоносного ПО.",
+        "article_img": "/upload/resize_cache/iblock/4e1/241_151_2/tvxb478xz9oswy9kgyuljzmit63yl1p0.jpg"
     },
     "540845": {
         "article_data_timestamp": 1691782745.0,
         "article_title": "До свидания, Trello и Jira: Atlassian отключает пользователей из России и Белоруссии",
         "article_url": "https://www.securitylab.ru//news/540845.php",
-        "article_desc": "Доступ к аккаунтам будет потерян через 30 дней после получения уведомления от компании."
+        "article_desc": "Доступ к аккаунтам будет потерян через 30 дней после получения уведомления от компании.",
+        "article_img": "/upload/resize_cache/iblock/34c/241_151_2/bz7ffi2buf2hh4ve13tg17detnjdk42w.jpg"
     },
     "540844": {
         "article_data_timestamp": 1691769793.0,
         "article_title": "Шпионская дискотека: MoustachedBouncer атакует иностранные посольства в Беларуси",
         "article_url": "https://www.securitylab.ru//news/540844.php",
-        "article_desc": "Как программы NightClub и Disco превращают интернет-провайдеров в интернет-пособников."
+        "article_desc": "Как программы NightClub и Disco превращают интернет-провайдеров в интернет-пособников.",
+        "article_img": "/upload/resize_cache/iblock/d6b/241_151_2/9g6ippa2kun82inrlhdjqmjhgkvc2i9i.jpg"
     },
     "540843": {
         "article_data_timestamp": 1691767500.0,
         "article_title": "Google начал блокировать российские компании в сервисах Workspace",
         "article_url": "https://www.securitylab.ru//news/540843.php",
-        "article_desc": "Западный техногигант отнимает доступ к корпоративным данным без какого-либо предупреждения."
+        "article_desc": "Западный техногигант отнимает доступ к корпоративным данным без какого-либо предупреждения.",
+        "article_img": "/upload/resize_cache/iblock/30d/241_151_2/mjrwdm4ii7lligi1tfkpylh1d1u9oc42.jpg"
     },
     "540842": {
         "article_data_timestamp": 1691766547.0,
         "article_title": "Время остыть: как замести тепловые следы после использования банкомата",
         "article_url": "https://www.securitylab.ru//news/540842.php",
-        "article_desc": "Охотники за отпечатками готовы к термической атаке."
+        "article_desc": "Охотники за отпечатками готовы к термической атаке.",
+        "article_img": "/upload/resize_cache/iblock/369/241_151_2/ydjlmhk9s2jllb1d2zahw1rfrjpagovi.jpg"
     }
 }

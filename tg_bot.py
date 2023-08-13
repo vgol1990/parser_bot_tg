@@ -5,6 +5,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from aiogram.utils.markdown import hbold, hunderline, hcode, hlink
 from aiogram.dispatcher.filters import Text
 from config import  token
+from main import check_news_update
 bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
@@ -33,7 +34,7 @@ async def get_all_news(message: types.Message):
 
 @dp.message_handler(commands="last_five")
 
-async def get_all_news(message: types.Message):
+async def get_last_five_news(message: types.Message):
     with open("news_dict.json", "r", encoding='utf-8') as file:
         news_dict = json.load(file)
 
@@ -43,6 +44,9 @@ async def get_all_news(message: types.Message):
 
         await message.answer(news)
 
+# @dp.message_handler(commands="fresh_news")
+#
+# async def get_fresh_news(message: types.Message):
 
 if __name__ == '__main__':
     executor.start_polling(dp)
