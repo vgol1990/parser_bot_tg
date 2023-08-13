@@ -19,8 +19,9 @@ def get_first_news():
     for article in articles_cards:
         article_title = article.find("h2", class_="article-card-title").text.strip()
         article_desc = article.find("p").text.strip()
-        article_url = f'https://www.securitylab.ru/news{article.get("href")}'
-
+        article_url = f'https://www.securitylab.ru/{article.get("href")}'
+        article_img = article.find("img").get("src")
+        print(article_img)
         article_data_time = article.find("time").get("datetime")
         data_from_iso = datetime.fromisoformat(article_data_time)
 
@@ -32,7 +33,7 @@ def get_first_news():
 
 
 
-        print(f"{article_title} | {article_url}| {article_data_timestamp}")
+   #    print(f"{article_title} | {article_url}| {article_data_timestamp}")
 
         news_dict[article_id] = {
             "article_data_timestamp": article_data_timestamp,
@@ -41,7 +42,7 @@ def get_first_news():
             "article_desc": article_desc
         }
 
-    with open("new_dict.json","w", encoding='utf-8') as file:
+    with open("news_dict.json","w", encoding='utf-8') as file:
         json.dump(news_dict, file, indent=4, ensure_ascii=False)
 
 
