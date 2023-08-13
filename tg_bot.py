@@ -26,7 +26,19 @@ async def get_all_news(message: types.Message):
         #        f"{hunderline(v['article_title'])}\n" \
         #        f"{hcode(v['article_desc'])}\n" \
         #        f"{hlink(v['article_title'], v['article_url'])}"
-        news = f"{hbold(datetime.datetime.fromtimestamp(v['article_date_timestamp']))}\n" \
+        news = f"{hbold(datetime.datetime.fromtimestamp(v['article_data_timestamp']))}\n" \
+               f"{hlink(v['article_title'], v['article_url'])}"
+
+        await message.answer(news)
+
+@dp.message_handler(commands="last_five")
+
+async def get_all_news(message: types.Message):
+    with open("news_dict.json", "r", encoding='utf-8') as file:
+        news_dict = json.load(file)
+
+    for k, v in sorted(news_dict.items())[-5:]:
+        news = f"{hbold(datetime.datetime.fromtimestamp(v['article_data_timestamp']))}\n" \
                f"{hlink(v['article_title'], v['article_url'])}"
 
         await message.answer(news)
