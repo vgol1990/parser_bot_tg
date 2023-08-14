@@ -8,12 +8,19 @@ from config import  token
 bot = Bot(token=token, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
+from main import get_first_news
 @dp.message_handler(commands="start")
-async def start(message:types.Message):
-    await message.reply("what doc")
-@dp.message_handler(commands="all_news")
+
+async def start(message: types.Message):
+    start_buttons =["Все новости","Последние 5 новостей"]
+    keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
+    keyboard.add(*start_buttons)
+    await message.answer("Лента новостей", reply_markup=keyboard)
+@dp.message_handler(Text(equals="Все новости"))
 
 async def get_all_news(message: types.Message):
+
+    get_first_news()
     with open("news_dict.json", "r", encoding='utf-8') as file:
         news_dict = json.load(file)
 
@@ -31,9 +38,11 @@ async def get_all_news(message: types.Message):
 
         await message.answer(news)
 
-@dp.message_handler(commands="last_five")
+@dp.message_handler(Text(equals="Последние 5 новостей"))
 
 async def get_all_news(message: types.Message):
+
+    get_first_news()
     with open("news_dict.json", "r", encoding='utf-8') as file:
         news_dict = json.load(file)
 
